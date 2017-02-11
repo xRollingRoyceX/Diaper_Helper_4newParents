@@ -3,11 +3,12 @@
  do the things im still learning how to do!
  
  ______------*btw. this code can be transformed into a 
- self-propagating worm as i found out from 
- playing with the code. it would say 16kb, but it would
- actually be 1 Gb++ every time you try and
- delete it it would increese .10 Gb was really cool. if you manage to do this 
- just shut off your computer/compiler depending on situation. 
+ self-propagating worm as I found out from 
+ playing with the code. It would say 16kb, but it would
+ actually be 1 GB+. Every time you try and
+ delete it it would increese 0.10-0.20 GB. If you manage to do this 
+ just shut off your computer/compiler depending on situation while
+ playing with the code. 
  */
 package poo_helper;
 
