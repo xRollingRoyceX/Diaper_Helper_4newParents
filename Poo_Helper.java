@@ -1,7 +1,13 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ *edit to your liking. add a time stamp for medical reasions if need be.
+ do the things im still learning how to do!
+ 
+ ______------*btw. this code can be transformed into a 
+ self-propagating worm as i found out from 
+ playing with the code. it would say 16kb, but it would
+ actually be 1 Gb++ every time you try and
+ delete it it would increese .10 Gb was really cool. if you manage to do this 
+ just shut off your computer/compiler depending on situation. 
  */
 package poo_helper;
 
