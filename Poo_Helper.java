@@ -8,13 +8,13 @@
  actually be 1 GB+. Every time you try and
  delete it it would increese 0.10-0.20 GB. If you manage to do this 
  just shut off your computer/compiler depending on situation while
- playing with the code. 
+ playing with the code and delete the file.
  */
 package poo_helper;
 
 import java.util.Scanner;
 import java.io.*;
-
+import java.util.Date;
 /**
  *
  * @author xRollingRoyceX
@@ -40,6 +40,13 @@ public class Poo_Helper {
 
             File myFile = new File("dad.txt");
             Scanner inputFile = new Scanner(myFile);
+         
+            int K = tStamp.getHours();
+            int m = tStamp.getMinutes();
+            outputFile.print(K + " ");
+            outputFile.print(m + " ");
+            //cant seem to make it read a ' : ' ...yet                         
+            //but now its timestamped
 
             while (inputFile.hasNext()) {
                 int accum = inputFile.nextInt();
@@ -55,6 +62,13 @@ public class Poo_Helper {
 
             File myFile = new File("mom.txt");
             Scanner inputFile = new Scanner(myFile);
+             
+            int K = tStamp.getHours();
+            int m = tStamp.getMinutes();
+            outputFile.print(K + " ");
+            outputFile.print(m + " ");
+            //cant seem to make it read a ' : ' ...yet                         
+            //but now its timestamped
 
             while (inputFile.hasNext()) {
                 int accum = inputFile.nextInt();
